@@ -101,7 +101,7 @@ val_ds = tf.keras.utils.image_dataset_from_directory(
 
 ## Step 4: Explore the dataset
 
-#### 4.1: Display the class names within the dataset. Each class is associated with a unique Pokemon, represented by it's Pokedex number.
+#### 4.1: Display the class names within the dataset. Each class is associated with a unique Pokemon, represented by its Pokedex number.
 
 Note: Variants of specific Pokemon are denoted with their Pokedex number and a brief label for the variant.\
 An example of this is Blastoise. Class '9' represents Blastoise's base form, while '9-mega' represents Mega Blastoise
