@@ -1,6 +1,6 @@
 ## Building a TensorFlow image classifier to identify images of Pokemon
 
-![Pokemon Image](https://storage.googleapis.com/kaggle-datasets-images/973252/1645878/8e0c68959a5a10217a607eedda0d1c90/dataset-cover.jpg?t=2020-11-14-20-22-50)
+![Pokemon Image](./img/readme_banner.jpg)
 
 This project was meant as a way to gain experience working with TensorFlow / Keras for image classification. The dataset used was extracted from the PokeAPI sprite repository, which be found at [this GitHub link]https://github.com/PokeAPI/sprites. This dataset had to be reorganized into seperate directories based on the Pokemon the image was associated with. This was done using Python via the code found in _subfolders.py_.
 
@@ -137,7 +137,7 @@ for images, labels in train_ds.take(1):
     plt.axis("off")
 ```
 
-![png](./outputs/output_13_0.png)
+![png](./img/output_13_0.png)
 
 ## Step 5: Create the model
 
@@ -245,7 +245,7 @@ plt.title('Training and Validation Loss')
 plt.show()
 ```
 
-![png](./outputs/output_23_0.png)
+![png](./img/output_23_0.png)
 
 ## Step 7: Show model results with a few examples
 
@@ -257,7 +257,7 @@ Expected Result: [149](https://www.pokemon.com/us/pokedex/dragonite)
 tf.keras.utils.load_img('./dragonite.png', target_size=(img_height, img_width))
 ```
 
-![png](./outputs/output_25_0.png)
+![png](./img/output_25_0.png)
 
 ```python
 img = tf.keras.utils.load_img(
@@ -286,7 +286,7 @@ Expected Result: [213](https://www.pokemon.com/us/pokedex/shuckle)
 tf.keras.utils.load_img('./shuckle.png', target_size=(img_height, img_width))
 ```
 
-![png](./outputs/output_28_0.png)
+![png](./img/output_28_0.png)
 
 ```python
 img = tf.keras.utils.load_img(
