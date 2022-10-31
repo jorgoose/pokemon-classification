@@ -2,7 +2,7 @@
 
 ![Pokemon Image](./img/readme_banner.jpg)
 
-This project was meant as a way to gain experience working with TensorFlow / Keras for image classification. The dataset used was extracted from the PokeAPI sprite repository, which be found at [this GitHub link](https://github.com/PokeAPI/sprites). This dataset had to be reorganized into seperate directories based on the Pokemon the image was associated with. This was done using Python via the code found in _subfolders.py_.
+This project was meant as a way to gain experience working with TensorFlow / Keras for image classification. The dataset used was extracted from the PokeAPI sprite repository, which be found at [this GitHub link](https://github.com/PokeAPI/sprites/tree/master/sprites/pokemon). This dataset had to be reorganized into seperate directories based on the Pokemon the image was associated with. This was done using Python via the code found in _subfolders.py_.
 
 ### Step 1: Install and import necessary libraries
 
