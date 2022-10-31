@@ -1,8 +1,8 @@
-## Building a TensorFlow image classifier to identify images of Pokemon
+## Building a TensorFlow image classifier to identify images of Pokémon
 
-![Pokemon Image](./img/readme_banner2.jpg)
+![Pokémon Image](./img/readme_banner2.jpg)
 
-This project was meant as a way to gain experience working with TensorFlow / Keras for image classification. The dataset used was extracted from the PokeAPI sprite repository, which be found at [this GitHub link](https://github.com/PokeAPI/sprites/tree/master/sprites/pokemon). This dataset had to be reorganized into seperate directories based on the Pokemon the image was associated with. This was done using Python via the code found in _subfolders.py_.
+This project was meant as a way to gain experience working with TensorFlow / Keras for image classification. The dataset used was extracted from the PokeAPI sprite repository, which be found at [this GitHub link](https://github.com/PokeAPI/sprites/tree/master/sprites/pokemon). This dataset had to be reorganized into seperate directories based on the Pokémon the image was associated with. This was done using Python via the code found in _subfolders.py_.
 
 ### Step 1: Install and import necessary libraries
 
@@ -61,7 +61,7 @@ print(c)
 
 ## Step 3: Establish training and validation datasets
 
-Two datasets were created from the overarching collection of Pokemon images: a training dataset (70%) and a validation dataset (30%).
+Two datasets were created from the overarching collection of Pokémon images: a training dataset (70%) and a validation dataset (30%).
 
 ```python
 data_dir = 'organized'
@@ -101,7 +101,7 @@ val_ds = tf.keras.utils.image_dataset_from_directory(
 
 ## Step 4: Explore the dataset
 
-#### 4.1: Display the class names within the dataset. Each class is associated with a unique Pokemon, represented by its Pokedex number.
+#### 4.1: Display the class names within the dataset. Each class is associated with a unique Pokémon, represented by its Pokédex number.
 
 Note: Variants of specific Pokemon are denoted with their Pokedex number and a brief label for the variant.\
 An example of this is Blastoise. Class '9' represents Blastoise's base form, while '9-mega' represents Mega Blastoise
@@ -116,7 +116,7 @@ An example of this is Blastoise. Class '9' represents Blastoise's base form, whi
 </tr></table>
 
 ```python
-# Print class names (each Pokemon)
+# Print class names (each Pokémon)
 class_names = train_ds.class_names
 print(class_names)
 ```
